@@ -6,3 +6,10 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+
+
+let ingredientsList = document.getElementById('ingredients');
+
+for(let ingredient of ingredients){
+  ingredientsList.appendChild(document.createElement('li')).textContent = ingredient;
+}

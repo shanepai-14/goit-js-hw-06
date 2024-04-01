@@ -7,11 +7,20 @@
     <title>Task 10 (optional)</title>
     <link rel="stylesheet" href="css/common.css" />
   </head>
+  <style>
+    .box{
+      width: 30px;
+      height: 30px;
+    }
+    #boxes{
+      display: flex;
+    }
+  </style>
   <body>
     <p><a href="index.html">Go back</a></p>
 
     <div id="controls">
-      <input type="number" min="1" max="100" step="1" />
+      <input type="number" min="1" max="100" step="1" id="element_count" />
       <button type="button" data-create>Create</button>
       <button type="button" data-destroy>Destroy</button>
     </div>
